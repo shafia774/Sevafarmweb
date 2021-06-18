@@ -1,0 +1,82 @@
+body{
+    background-color: #373737;
+    color: white;
+}
+#sevafarm{
+	font-family:cursive;
+	color:white;
+	background:#22b14c;
+	text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+.track{
+    border: none;
+    background-color: #22b14c;
+  color:white ;
+  padding: 6px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+th{
+	color: white;
+}
+h2{
+  color: white;
+}
+tr{
+	color: white;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+  background:#22b14c;
+}
+
+thead {
+	th {
+    background:#22b14c;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}

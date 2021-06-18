@@ -1,0 +1,80 @@
+body{
+    background-color: #373737;
+      color: white;
+}
+#sevafarm{
+	font-family:cursive;
+	color:white;
+	background:#22b14c;
+	text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+h2{
+  color: white;
+}
+.track button{
+  padding:5px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+th{
+	color: white;
+  background-color: #22b14c;
+}
+tr{
+	color: white;
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+  background:#22b14c;
+}
+
+thead {
+	th {
+		background-color: #55608f;
+	}
+}
+
+tbody {
+	tr {
+		&:hover {
+			background-color: rgba(255,255,255,0.3);
+		}
+	}
+	td {
+		position: relative;
+		&:hover {
+			&:before {
+				content: "";
+				position: absolute;
+				left: 0;
+				right: 0;
+				top: -9999px;
+				bottom: -9999px;
+				background-color: rgba(255,255,255,0.2);
+				z-index: -1;
+			}
+		}
+	}
+}

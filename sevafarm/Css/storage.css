@@ -1,0 +1,29 @@
+body{
+    background-color: #373737;
+}
+#sevafarm{
+	font-family:cursive;
+	color:white;
+	background:#22b14c;
+	text-align: center;
+   }
+   a{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+table{
+    margin: auto;
+    padding-top: 10px;
+    color: white;
+}
+table tr{
+    display: inline-block;
+}
+td{
+    
+    padding:30px 30px;
+}
+#text{
+  color: white; 
+}

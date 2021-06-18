@@ -1,0 +1,36 @@
+body{
+    background-color: #373737;
+}
+#sevafarm{
+	font-family:cursive;
+	color:white;
+	background:#22b14c;
+	text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+}
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background:#ccc;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+h2{
+  color: white;
+}
